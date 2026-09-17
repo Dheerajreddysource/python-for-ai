@@ -1,0 +1,11 @@
+repositary={
+    "name":"python-for-ai",
+    "language":"python",
+    "files":["hello.py","README.md","main.py"],
+    "author":"Dheeraj"
+    }
+print(repositary["name"])
+print(repositary["language"])
+print(repositary["author"])
+repositary["version"]="V1"
+print(repositary)

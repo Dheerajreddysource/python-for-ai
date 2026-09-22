@@ -1,3 +1,3 @@
-import math_utils
- 
-print(math_utils.square(7))
+from  math_utils import square,cube
+print(square(25))
+print(cube(4))

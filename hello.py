@@ -190,6 +190,30 @@ def student_info(**details):
 student_info(name="Dheeraj", age=19, branch="CSE")
 
 
+square=lambda x:x*x
+print(square(3))
 
-    
-    
+double=lambda a:a*2
+print(double(3))
+
+student=[
+    ("Dheeraj",19),
+    ("Rahul",21),
+    ("Arjun", 18),
+    ("Kiran", 20)
+]
+student.sort(key=lambda students:students[1])
+print(student)
+
+numbers=[2,4,6,8]
+n=list(map(lambda c:c*2,numbers))
+print(n)
+
+numbers = [10, 15, 20, 25, 30, 35]
+w=list(filter(lambda b:b>20,numbers))
+print(w)
+
+numbers=[3,8,11,16,21,24,29,32]
+r=list(filter(lambda g:g%2==0,numbers))
+c=list(map(lambda m:m*m,r))
+print(c)

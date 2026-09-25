@@ -34,3 +34,8 @@ file=open("notes.txt","r")
 print(file.read())
 
 file.close()
+
+
+with open("notes.txt","a") as file:
+    file.write("\n machine learing")
+    
